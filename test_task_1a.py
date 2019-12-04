@@ -2,7 +2,7 @@ import unittest
 from pyfakefs.fake_filesystem_unittest import TestCase
 from unittest.mock import patch, mock_open
 
-from home_task import task_1a
+import task_1a
 
 
 class TestTask1A(TestCase):
